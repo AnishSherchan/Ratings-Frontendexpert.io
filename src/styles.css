@@ -1,0 +1,101 @@
+body {
+  font-size: 15px;
+}
+
+.App {
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  min-height: 300px;
+  max-width: 300px;
+  padding: 25px;
+  background-color: rgb(33, 40, 50);
+  border-radius: 25px;
+}
+h1 {
+  font-size: 28px;
+  color: hsl(0, 0%, 100%);
+}
+.heroText2 {
+  text-align: center;
+}
+p {
+  color: hsl(217, 12%, 63%);
+}
+.rateContainer {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  cursor: pointer;
+}
+.rate {
+  width: 45px;
+  background-color: #262f38;
+  border: none;
+  color: hsl(217, 12%, 63%);
+  height: 45px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+.rate:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+.star-container {
+  background-color: #262f38;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+}
+.rating-container {
+  background-color: #262f38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 175px;
+  border-radius: 15px;
+}
+.rate-holder {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.rating-container p {
+  color: hsl(25, 97%, 53%);
+}
+.Submit-btn {
+  width: 100%;
+  margin-top: 28px;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  font-size: 16px;
+  background-color: hsl(25, 97%, 53%);
+}
+.Submit-btn:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+.active {
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+.tContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.thank-text {
+  text-align: center;
+}
